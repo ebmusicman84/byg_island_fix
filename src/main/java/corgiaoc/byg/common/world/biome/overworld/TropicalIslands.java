@@ -43,11 +43,6 @@ public class TropicalIslands extends BYGSubBiome {
         return BYGBiomes.RAINBOW_BEACH;
     }
     
-    @Override
-    public int getWeight() {
-        return 0;
-    }
-
     static {
         GENERATION_SETTINGS.addStructureStart(StructureFeatures.OCEAN_RUIN_COLD); //Ocean Ruin Cold
         GENERATION_SETTINGS.addStructureStart(StructureFeatures.JUNGLE_TEMPLE); //Jungle Temple
